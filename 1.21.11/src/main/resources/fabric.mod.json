@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "tuffglint",
+	"version": "${version}",
+	"name": "Tuff Glint",
+	"description": "full control of the enchantment glint: up to 10x stronger, speed, size, angle, color, glints from packs or your own image, items and armor on or off.",
+	"authors": ["wysss"],
+	"contact": {"sources": "https://github.com/realwysss/Tuff-Glint"},
+	"license": "All-Rights-Reserved",
+	"icon": "assets/tuffglint/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["dev.tfgl.TfGl"],
+		"modmenu": ["dev.tfgl.ModmenuIntgr"]
+	},
+	"mixins": [
+		{
+			"config": "tuffglint.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"suggests": {
+		"modmenu": "*",
+		"cloth-config": "*"
+	},
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"fabric-command-api-v2": "*",
+		"minecraft": "1.21.11",
+		"java": ">=21"
+	}
+}
