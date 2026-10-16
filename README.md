@@ -4,7 +4,7 @@
 
 full control of the enchantment glint. make it 10 times stronger, change speed, size, angle and color, use the glints of the HitsOnly packs or your own image, and turn it off on items or armor.
 
-client side fabric mod for 1.21.11. settings through mod menu with cloth config, or with the `/tuffglint` command (needs fabric api):
+client side fabric mod for 1.21.11. settings with the menu (key **B** or mod menu, needs [Wysss Library](https://github.com/realwysss/Wysss-Library)), or with the `/tuffglint` command (needs fabric api):
 
 - **glint look**: normal (game or resource pack glint), Aqua Pack, Hello Kitty Pack, Cry4me Pack, or my own image
 - **strength**: 0% to 1000%. 100% is the normal game, 1000% is 10 times stronger
