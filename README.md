@@ -27,7 +27,7 @@ put `item.png` (and optionally `armor.png`) in the `config/tuffglint` folder and
 
 ## download
 
-`tuff-glint-mc1.21.11-1.0.0.jar` on the releases page. minecraft 1.21.11, fabric loader 0.16 or newer, fabric api.
+`tuff-glint-mc1.21.11-1.1.0.jar` on the releases page. minecraft 1.21.11, fabric loader 0.16 or newer, fabric api.
 
 ## pictures
 
@@ -56,3 +56,5 @@ tint and my own image:
 the glint is drawn with one texture that is moved over the item. the mod changes the strength value that goes into the glint shader, replaces the matrix that moves and scales the texture, and swaps the texture the glint is drawn with (your pick, tinted if you set a color).
 
 all rights reserved. made by wysss.
+
+the menu needs [Wysss Library](https://github.com/realwysss/Wysss-Library) installed.
